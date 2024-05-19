@@ -1,0 +1,28 @@
+.Pokedex {
+  text-align: center;
+  padding: 20px;
+}
+
+.Pokedex-title {
+  color: darkgray;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Pokedex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Pokecard {
+  flex: 1 1 21%;
+  max-width: 21%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+}
